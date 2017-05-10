@@ -12,7 +12,15 @@ public class CircleAreaRunner {
     public static void main (String [] args){
         CircleArea circleArea = new CircleArea();
         circleArea.calculateBigger();
-//        int number = Scanner;
+
+    }
+
+}
+
+
+
+
+// int number = Scanner;
 //        switch (number) {
 //            case 1:
 //                Ex1 ex1 = new Ex1();
@@ -30,7 +38,4 @@ public class CircleAreaRunner {
 //
 //            default: monthString = "Invalid month";
 //                break; }
-        }
-
-    }
 

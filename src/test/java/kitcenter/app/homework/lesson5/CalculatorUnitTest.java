@@ -2,9 +2,14 @@ package kitcenter.app.homework.lesson5;
 
 import kitcenter.runners.classwork.lesson5.Calculator;
 import org.junit.*;
+import org.junit.runners.MethodSorters;
+
 /**
  * Created by annabilous on 5/9/17.
  */
+
+@FixMethodOrder(MethodSorters.NAME_ASCENDING)
+
 public class CalculatorUnitTest {
     int numberOne, numberTwo;
     Calculator calculator = new Calculator();
@@ -95,4 +100,10 @@ public class CalculatorUnitTest {
 
     }
 
+    @Ignore("Not ready yet") // URL in Jira with bug. This test will be ignored by system
+    @Test(timeout = 1000) //interrupt after 1000 ms
+    public void infinityTest() {
+        while (true);
+
+}
 }
