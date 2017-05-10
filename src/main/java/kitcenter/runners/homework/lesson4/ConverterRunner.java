@@ -12,6 +12,8 @@ public class ConverterRunner {
         primitiveConverter.floatToChar(0.4f);
         primitiveConverter.intToChar(3);
         primitiveConverter.charToInt('1');
+        primitiveConverter.floatToInt(10.7f);
+        primitiveConverter.intToDouble(33);
 
     }
 }

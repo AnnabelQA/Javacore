@@ -22,7 +22,7 @@ public class CalculatorTest {
 
     public void setUp()
     {
-        numberOne = 10;
+        numberOne = 9;
         numberTwo = 40;
     }
 

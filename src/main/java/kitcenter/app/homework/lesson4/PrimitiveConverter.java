@@ -28,4 +28,15 @@ public class PrimitiveConverter {
         return resultInt; //get index of char
     }
 
+    public int floatToInt(float floatToBeConverted) {
+        int resultInt = (int)floatToBeConverted;
+        System.out.println("Input float value is " + floatToBeConverted + ". Output int value is " + resultInt);
+        return resultInt;
+    }
+
+    public double intToDouble(int intToBeConverted) {
+        double resultDouble = (double)intToBeConverted;
+        System.out.println("Input float value is " + intToBeConverted + ". Output int value is " + resultDouble);
+        return resultDouble;
+    }
 }
