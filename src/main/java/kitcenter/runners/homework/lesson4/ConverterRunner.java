@@ -7,7 +7,8 @@ import kitcenter.app.homework.lesson4.PrimitiveConverter;
  */
 public class ConverterRunner {
 
-    public static void main(String[] args) {
+    public static void runConverterRunner() {
+        System.out.println("Task number 2 is running...");
         PrimitiveConverter primitiveConverter = new PrimitiveConverter();
         primitiveConverter.floatToChar(0.4f);
         primitiveConverter.intToChar(3);

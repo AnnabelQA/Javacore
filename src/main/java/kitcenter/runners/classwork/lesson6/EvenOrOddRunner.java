@@ -7,7 +7,8 @@ import kitcenter.app.classwork.lesson6.EvenOrOdd;
  */
 public class EvenOrOddRunner {
 
-    public static void main (String [] args){
+    public static void runEvenOrOddRunner() {
+        System.out.println("Task number 1 is running...");
     EvenOrOdd evenOrOdd = new EvenOrOdd();
     evenOrOdd.checkEvenOrOdd();
 
