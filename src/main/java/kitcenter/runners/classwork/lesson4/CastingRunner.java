@@ -10,11 +10,11 @@ public class CastingRunner {
     public static void main(String[] args) {
         WideningCasting wideningCasting = new WideningCasting();
 
-        wideningCasting.widening();
+        wideningCasting.widening(127.0);
 
-        NarrowingCasting narrowingCasting = new NarrowingCasting();
-
-        narrowingCasting.narrowing();
+//        NarrowingCasting narrowingCasting = new NarrowingCasting();
+//
+//        narrowingCasting.narrowing(40.3);
 
 
 

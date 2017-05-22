@@ -19,11 +19,12 @@ public class WideningCasting {
 
 //correct conversion 64f<=32f<=64<=32<=16<=8
 
-    public void widening(){
+    public byte widening(double doubleValue ){
 
         double1 = float1 = long1 = int1 = short1 = byte1;
-
-        System.out.println(double1);
+        byte byteValue = (byte) doubleValue;
+        System.out.println(byteValue);
+        return byteValue;
 
     }
 

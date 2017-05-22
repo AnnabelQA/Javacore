@@ -5,9 +5,37 @@ package kitcenter.app.classwork.lesson5;
  */
 public class Car {
 
-    public String name;
-    public static int speed = 10;
+    private String name;
 
-    public static void showSpeed () {
-System.out.println("Speed is: " + speed);    }
+    private Integer speed;
+
+    public Car(String name){
+        this.name = name;
+        speed = 0;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getSpeed() {
+        return speed;
+    }
+
+    public void setSpeed(Integer speed) {
+        this.speed = speed;
+    }
+
+    public String showSpeed() {
+        StringBuilder builder = new StringBuilder();
+        builder.append("Car ")
+                .append(name)
+                .append(" is moving with the speed: ")
+                .append(speed);
+        return builder.toString();
+    }
 }
