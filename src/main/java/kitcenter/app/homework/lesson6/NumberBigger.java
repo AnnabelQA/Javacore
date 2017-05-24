@@ -8,8 +8,11 @@ import java.util.Scanner;
  */
 public class NumberBigger {
 
-    public int numComparator(Number a, Number b){
+    public int  numComparator(Number a, Number b){
         return new BigDecimal(a.toString()).compareTo(new BigDecimal(b.toString()));
 
     }
+
+
+
 }

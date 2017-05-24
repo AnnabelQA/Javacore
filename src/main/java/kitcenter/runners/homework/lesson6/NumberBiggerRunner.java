@@ -9,25 +9,20 @@ import java.util.Scanner;
  */
 public class NumberBiggerRunner {
 
-    public static void runNumberBiggerRunner() {
-        System.out.println("Task number 4 is running...");
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("Please enter first number: ");
-        int firstNumber = scanner.nextInt();
-        System.out.println("Please enter second number: ");
-        int secondNumber = scanner.nextInt();
+    public int runNumberBiggerRunner(int firstNumber,int secondNumber) {
 
         NumberBigger numberBigger = new NumberBigger();
         int result = numberBigger.numComparator(firstNumber, secondNumber);
 
         if (result == 0) {
-            System.out.println("Numbers are equal!");
+            return result;
         } else if (result > 0) {
-            System.out.println("First Number is bigger than Second!");
+            return result;
         } else {
-            System.out.println("Second Number is bigger than First!");
+            return result;
         }
-
+    }
+    public static void main(String[] args) {
 
     }
 }
