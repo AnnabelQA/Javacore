@@ -5,17 +5,17 @@ package kitcenter.app.classwork.lesson4;
  */
 public class WideningCasting {
 
-    byte byte1 = 127;
+    byte byte1;
 
-    short short1 = 0;
+    short short1;
 
-    int int1 = 0;
+    int int1;
 
-    long long1 = 0L;
+    long long1;
 
-    float float1 = 0.0f;
+    float float1;
 
-    double double1 = 0.0d;
+    double double1;
 
 //correct conversion 64f<=32f<=64<=32<=16<=8
 

@@ -30,9 +30,9 @@ public class MainRunner {
                 case 3:
                     TriangleAreaRunner.runTriangleAreaRunner();
                     break;
-//                case 4:
-//                    NumberBiggerRunner.runNumberBiggerRunner(3,4);
-//                    break;
+                case 4:
+                    NumberBiggerRunner.runNumberBiggerRunner(3,4);
+                    break;
 
                 default:
                     System.out.println("There is no lesson number " + lessonNumber + ". Enter correct number.");

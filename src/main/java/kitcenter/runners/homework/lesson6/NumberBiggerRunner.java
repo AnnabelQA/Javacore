@@ -9,7 +9,7 @@ import java.util.Scanner;
  */
 public class NumberBiggerRunner {
 
-    public int runNumberBiggerRunner(int firstNumber,int secondNumber) {
+    public static int runNumberBiggerRunner(int firstNumber,int secondNumber) {
 
         NumberBigger numberBigger = new NumberBigger();
         int result = numberBigger.numComparator(firstNumber, secondNumber);
@@ -21,8 +21,7 @@ public class NumberBiggerRunner {
         } else {
             return result;
         }
-    }
-    public static void main(String[] args) {
+
 
     }
 }
